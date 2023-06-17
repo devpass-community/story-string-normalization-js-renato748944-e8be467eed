@@ -1,5 +1,5 @@
 function removeAccent(str) {
-    // Add your solution here!
+	retorn str.normalize('NFD');
 }
 
 module.exports = removeAccent;
